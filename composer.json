@@ -1,0 +1,27 @@
+{
+    "name": "artyomnar/output-purifier",
+    "description": "Purifies text from unnecessary tags, external-sources and scripts",
+    "type": "library",
+    "keywords": ["xss", "security", "quoting", "filtering", "anti-xss", "purify", "prevent-xss"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artyom Narmagambetov",
+            "email": "artyomnar94@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/artyomnar94/output-purifier/issues",
+        "wiki": "https://github.com/artyomnar94/output-purifier/wiki",
+        "source": "https://github.com/artyomnar94/output-purifier"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Output\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
